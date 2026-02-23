@@ -1,19 +1,19 @@
-# MONGODB_HOST: mongodb.devopslab.fun
-# REDIS_HOST: redis.devopslab.fun
-# CATALOGUE_HOST: catalogue.devopslab.fun
-# CART_HOST: cart.devopslab.fun
-# USER_HOST: user.devopslab.fun
-# RABBITMQ_HOST: rabbitmq.devopslab.fun
-# MYSQL_HOST: mysql.devopslab.fun
-# SHIPPING_HOST: shipping.devopslab.fun
-# PAYMENT_HOST: payment.devopslab.fun
+MONGODB_HOST: mongodb.devopslab.fun
+REDIS_HOST: redis.devopslab.fun
+CATALOGUE_HOST: catalogue.devopslab.fun
+CART_HOST: cart.devopslab.fun
+USER_HOST: user.devopslab.fun
+RABBITMQ_HOST: rabbitmq.devopslab.fun
+MYSQL_HOST: mysql.devopslab.fun
+SHIPPING_HOST: shipping.devopslab.fun
+PAYMENT_HOST: payment.devopslab.fun
 
-MONGODB_HOST: mongodb-{{ env }}.devopslab.fun # mongodb-dev.daws86s.fun
-REDIS_HOST: redis-{{ env }}.devopslab.fun
-CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.devopslab.fun
-CART_HOST: cart.backend-alb-{{ env }}.devopslab.fun
-USER_HOST: user.backend-alb-{{ env }}.devopslab.fun
-RABBITMQ_HOST: rabbitmq-{{ env }}.devopslab.fun
-MYSQL_HOST: mysql-{{ env }}.devopslab.fun
-SHIPPING_HOST: shipping.backend-alb-{{ env }}.devopslab.fun
-PAYMENT_HOST: payment.backend-alb-{{ env }}.devopslab.fun
+# MONGODB_HOST: mongodb-{{ env }}.devopslab.fun # mongodb-dev.daws86s.fun
+# REDIS_HOST: redis-{{ env }}.devopslab.fun
+# CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.devopslab.fun
+# CART_HOST: cart.backend-alb-{{ env }}.devopslab.fun
+# USER_HOST: user.backend-alb-{{ env }}.devopslab.fun
+# RABBITMQ_HOST: rabbitmq-{{ env }}.devopslab.fun
+# MYSQL_HOST: mysql-{{ env }}.devopslab.fun
+# SHIPPING_HOST: shipping.backend-alb-{{ env }}.devopslab.fun
+# PAYMENT_HOST: payment.backend-alb-{{ env }}.devopslab.fun
