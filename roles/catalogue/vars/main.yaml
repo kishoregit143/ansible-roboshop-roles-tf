@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.devopslab.fun
+MONGODB_HOST: mongodb-{{ env }}.devopslab.fun
