@@ -16,6 +16,11 @@
   - cryptography
   - PyMySQL
 
+- name: system setup
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: system-setup.yaml
+    
 - name: import shipping data into mysql
   community.mysql.mysql_db:
     state: import
@@ -29,7 +34,3 @@
   - /app/db/app-user.sql 
   - /app/db/master-data.sql
 
-- name: system setup
-  ansible.builtin.import_role:
-    name: common
-    tasks_from: system-setup.yaml
